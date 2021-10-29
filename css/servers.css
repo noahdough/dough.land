@@ -1,0 +1,129 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Roboto Condensed"; */
+  font-family: "Poppins";
+  background-color: #303030;
+  height: 100vh;
+}
+
+header {
+  height: 20vh;
+  padding-top: 2rem;
+  /* background-color: blue; */
+  display: flex;
+}
+
+.nav {
+  /* background-color: green; */
+  width: calc(50% + 19.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 30rem;
+}
+
+.nav-item {
+  /* background: pink; */
+  position: relative;
+}
+
+.nav-item svg {
+  height: 20rem;
+}
+
+.nav-item h1 {
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main {
+  /* background-color: pink; */
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  /* background-color: #fff; */
+  width: 60%;
+  height: 90%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  /* align-content: space-between; */
+  justify-items: center;
+}
+
+.item {
+  border-radius: 10px;
+  width: 70%;
+}
+
+.item__bg {
+  background-size: cover;
+  background-color: lightgray;
+  height: 60%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.item__info {
+  /* background-color: pink; */
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  border: 3px solid #5f22a5;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.item__info h2 {
+  font-size: 2rem;
+}
+
+.item__info p {
+  font-size: 1.6rem;
+}
+
+.item__info a {
+  width: 40%;
+  height: 4rem;
+  background-color: #303030;
+  color: white;
+  font-family: inherit;
+  border: 1px solid white;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.item__info a:hover {
+  background-color: #5f22a5;
+  color: #fff;
+}
