@@ -1,7 +1,7 @@
 // GSAP
 // gsap.from(".container", { duration: 1, y: 200 });
-gsap.from(".container", { duration: 1, y: 300 });
-gsap.from(".nav-item", { duration: 1, x: 300, delay: 1 });
+gsap.from(".container", { duration: 0.5, y: 300 });
+gsap.from(".nav-item", { duration: 0.5, x: 300, delay: 1 });
 
 let i = 0;
 let txt = "Welcome to Dough.Land";
